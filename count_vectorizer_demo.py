@@ -20,7 +20,8 @@ print(vectorizer.vocabulary)
 #fit transform
 count_matrix = vectorizer.fit_transform(corpus)
 print(count_matrix)
-
+print(type(count_matrix))
+print(type(count_matrix.toarray()))
 #feature names
 feature_names = vectorizer.get_feature_names_out()
 print(feature_names)
