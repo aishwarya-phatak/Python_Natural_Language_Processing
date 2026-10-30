@@ -18,7 +18,6 @@ print(tf_idf_matrix)
 
 print(vectorizer.get_feature_names_out())
 
-
 print("-----------idf calculation through coding---imp ------------")
 for e1,e2 in zip(vectorizer.get_feature_names_out(),vectorizer.idf_):
     print(e1,e2)
